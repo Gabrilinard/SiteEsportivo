@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="Estilos/jersey.css">
+    <link rel="shortcut icon" href="Imagens/logopw.jpeg" type="image/x-icon">
+    <title>Camisas</title>
+</head>
+<body>
+    <header>
+        <div class="principal">
+            <div class="logo">
+                <img src="Imagens/logopw.jpeg" alt="logoimg" class="imgespecial">
+                <h1 class="h1">ROUTINE STORE</h1>
+            </div>
+            <form action="" class="procurar">
+                <input type="search" name="procurar" id="procurar" placeholder="   O QUE VOCÊ PROCURA?">
+            </form>
+
+            <div class="cadastre">
+                <form action="comprar.html"><button type="submit" class="entrar">Entre ou</button></form>
+                <form action="cadastre-se.html"><button type="submit" class="entrar">Cadastra-se</button></form>
+            </div>
+            <span class="material-symbols-outlined">
+                shopping_cart
+                </span>
+        </div>
+    </header>
+
+    <div class="lista">
+        <ul>
+            <li class="red"><a href="index.html">Home</a> </li>
+            <li><a href="jersey.html">Camisas</a></li>
+            <li><a href="jackets.html">Jaquetas</a></li>
+            <li><a href="accessories.html">Acessórios</a></li>
+            <li><a href="feminino.html">Feminino</a> </li>
+        </ul>
+    </div>
+
+    <article>
+        <div class="principall">
+            <div class="imgsolteira">
+                <img src="Imagens/imgpw.jpg" alt="imghomemamrrandocadarço">
+            </div>
+            <div class="imagens">
+                <div>
+                    <a href="#" onclick="comprar('Camisa Nike Liverpool Masculina', 179.99)"><img src="Imagens/img3.pw.jpeg" alt="imgchuteiratopper"></a>
+                    <p class="p">Camisa Nike Liverpool</p>
+                    <p class="p">Masculina 2023/2024</p>
+                    <p class="valor">R$227,99</p>
+                    <p class="p">ou 2x de R$114,00 sem juros</p>
+                </div>
+
+                <div>
+                    <a href="#" onclick="comprar('Camisa Umbro Manga Curta', 69.90)"><img src="Imagens/img9pw.jpeg" alt="imgcamisaumbro"></a>
+                    <p class="p">Camisa Umbro Manga Curta</p>
+                    <p class="valor">R$69,90</p>
+                </div>
+
+                <div>
+                    <a href="#" onclick="comprar('Chuteira Penalty', 39.90)"><img src="Imagens/img13pw.jpeg" alt="imgcamisapenalty"></a>
+                    <p class="p">Camisa Penalty</p>
+                    <p class="gray">R$49,90</p>
+                    <p class="valor">R$39,90</p>
+                </div>
+
+                <div>
+                    <a href="#" onclick="comprar('Camiseta Nike Preta Masculina', 109.99)"><img src="Imagens/img5pw.jpeg" alt="imgbermudaasics"></a>
+                    <p class="p">Camiseta Nike Preta</p>
+                    <p class="p">Masculina</p>
+                    <p class="gray">R$129,99</p>
+                    <p class="valor">R$109,99 no Pix</p>
+                </div>
+
+                <div>
+                    <a href="#" onclick="comprar('Camiseta Man City Masculina', 229.99)"><img src="Imagens/camisamancitymasc.jpeg" alt="imgtenisasics"></a>
+                    <p class="p">Camiseta Man City</p>
+                    <p class="p">Masculina</p>
+                    <p class="gray">R$279,90</p>
+                    <p class="valor">R$229,99</p>
+                    <p class="p">ou 6x sem juros </p>
+                </div>
+
+                <div>
+                    <a href="#" onclick="comprar('Camiseta Preta Adidas Masculina', 139.90)"><img src="Imagens/camisetaadidasmas.jpeg" alt="imgtenisskechers"></a>
+                    <p class="p">Camiseta Preta Adidas</p>
+                    <p class="p">Masculina</p>
+                    <p class="valor">R$139,90</p>
+                    <p class="p">ou 2x de R$69,99 sem juros</p>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <script src="index.js"></script>
+</body>
+</html>

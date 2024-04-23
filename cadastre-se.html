@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilos/cadastra-se.css">
+    <link rel="shortcut icon" href="Imagens/logopw.jpeg" type="image/x-icon">
+    <title>Cadastre-se</title>
+</head>
+<body>
+    <header>
+        <div class="principal">
+            <ul>
+                <img src="Imagens/logopw.jpeg" alt="logoimg" class="imgespecial">
+                <li class="red"><a href="index.html">Home</a> </li>
+                <li><a href="jersey.html">Camisas</a> </li>
+                <li><h1 class="h1">ROUTINE STORE</h1></li>
+                <li class="red"><a href="jackets.html">Jaquetas</a> </li>
+                <li><a href="accessories.html">Acessórios</a> </li>
+            </ul>
+        </div>
+    </header>
+
+    <article>
+        <h1>Cadastra-se aqui:</h1>
+        <div class="container">
+            <form method="post" action="index.html">
+                <div class="form-group">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                  </div>
+                <div class="form-group">
+                    <label for="number">CPF:</label>
+                    <input type="number" id="cpf" name="cpf" required>
+                  </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" required>
+              </div>
+              <button type="submit">Enviar</button>
+              
+            </form>
+          </div>
+    </article>
+
+    <script src="index.js"></script>
+</body>
+</html>

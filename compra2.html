@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilos/compra2.css">
+    <link rel="shortcut icon" href="Imagens/logopw.jpeg" type="image/x-icon">
+    <title>Efetuando compra</title>
+</head>
+<body>
+
+    <header>
+        <div class="principal">
+            <ul>
+                <img src="Imagens/logopw.jpeg" alt="logoimg" class="imgespecial">
+                <li class="red"><a href="index.html">Home</a> </li>
+                <li><a href="jersey.html">Camisas</a> </li>
+                <li><h1 class="h1">ROUTINE STORE</h1></li>
+                <li class="red"><a href="jackets.html">Jaquetas</a> </li>
+                <li><a href="accessories.html">Acessórios</a> </li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="principall">
+        <p>Você selecionou o produto: <span id="produtoNome"></span> no valor de R$<span id="produtoValor"></span>. Deseja efetuar a compra?</p>
+        <button onclick="confirmarCompra()" id="confirmarCompraBtn">Confirmar Compra</button>
+        <p id="resultadoCompra"></p>
+        <p id="resultadoCompra1"></p>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+    var produtoSelecionado = JSON.parse(localStorage.getItem('produtoSelecionado'));
+    if (produtoSelecionado) {
+        document.getElementById("produtoNome").innerText = produtoSelecionado.nome;
+        document.getElementById("produtoValor").innerText = produtoSelecionado.valor.toFixed(2);
+    }
+});
+    document.addEventListener('DOMContentLoaded', function() {
+        document.getElementById("confirmarCompraBtn").addEventListener('click', function() {
+            var confirmarCompra = confirm("Você deseja efetuar o pagamento?");
+            if (confirmarCompra) {
+                document.getElementById("resultadoCompra").innerText = "Pagamento efetuado com sucesso!";
+            } else {
+                document.getElementById("resultadoCompra1").innerText = "Pagamento não concluído. Recarregue a página para tentar novamente.";
+            }
+        });
+    })
+
+
+    </script>
+</body>
+</html>

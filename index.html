@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilos/index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="shortcut icon" href="Imagens/logopw.jpeg" type="image/x-icon">
+    <title>Routine Store</title>
+</head>
+<body>
+    
+    <header>
+        <div class="principal">
+            <div class="logo">
+                <img src="Imagens/logopw.jpeg" alt="logoimg" class="imgespecial">
+                <h1 class="h1">ROUTINE STORE</h1>
+            </div>
+            <form action="" class="procurar">
+                <input type="search" name="procurar" id="procurar" placeholder="   O QUE VOCÊ PROCURA?">
+            </form>
+
+            <div class="cadastre">
+                <form action="comprar.html"><button type="submit" class="entrar">Entre ou</button></form>
+                <form action="cadastre-se.html"><button type="submit" class="entrar">Cadastra-se</button></form>
+            </div>
+            <span class="material-symbols-outlined">
+                shopping_cart
+                </span>
+        </div>
+    </header>
+
+    <div class="lista">
+        <ul>
+            <li class="red"><a href="index.html">Home</a> </li>
+            <li><a href="jersey.html">Camisas</a></li>
+            <li><a href="jackets.html">Jaquetas</a></li>
+            <li><a href="accessories.html">Acessórios</a> </li>
+            <li><a href="feminino.html">Feminino</a></li>
+        </ul>
+    </div>
+
+    <article>
+        <div class="texto">
+            <h1>O melhor do esporte!</h1>
+            <h1 id="h1">Vem aproveitar!</h1>
+        </div>
+            <div class="article">
+                <div class="img">
+                    <a href="#" onclick="comprar('Blusão Nike Sportswear Collection', 379.90)"><img src="Imagens/imgpinterest1.jpeg" alt="imgblusaonike"></a>
+                    <p class="bold">Blusão Nike Sportswear Collection</p>
+                    <p class="cinza">Moda</p>
+                    <p class="bolder">R$379,90 no Pix</p>
+                </div>
+                
+                <div class="img">
+                    <a href="#" onclick="comprar('Camiseta Nike Estados Unidos Masculina', 113.99)"><img src="Imagens/camisetanikeEUA.jpeg" alt="imgcamisetaEUA"></a>
+                    <p class="bold">Camiseta Nike Estados Unidos Masculina</p>
+                    <p class="cinza">Futebol</p>
+                    <p class="bolder">R$113,99 no Pix</p>
+                </div>
+                <div class="img">
+                    <a href="#" onclick="comprar('Tênis Nike SB Chron 2 Canvas Unissex', 429.99)"><img src="Imagens/Tênis Nike MC Trainer 2 Masculino.jpeg" alt="imgtenisnikeunissex"></a>
+                    <p class="bold">Tênis Nike SB Chron 2 Canvas Unissex</p>
+                    <p class="cinza">Casual</p>
+                    <p class="bolder">R$429,99 no Pix</p>
+                </div>
+                <div class="img">
+                    <a href="#" onclick="comprar('Tênis Nike MC Trainer 2 Masculino', 436.99)"><img src="Imagens/Tênis Nike SB Chron 2 Canvas Unissex.jpeg" alt="imgtenisnikesb"></a>
+                    <p class="bold">Tênis Nike MC Trainer 2 Masculino</p>
+                    <p class="cinza">Casual</p>
+                    <p class="bolder">R$436,99 no Pix</p>
+                </div>
+                <div class="img">
+                    <a href="#" onclick="comprar('Moletom Gap Feminino', 249.00)"><img src="Imagens/modelogapmulher.jpeg" alt="imggap"></a>
+                    <p class="bold">Moletom Gap Feminino</p>
+                    <p class="cinza">Moda</p>
+                    <p class="bolder">R$249,00 no Pix</p>
+                </div>
+                <div class="img">
+                    <a href="#" onclick="comprar('Cropped Gap Michigan', 149.99)"><img src="Imagens/modelomulher2.jpeg" alt="imggapmichigan"></a>
+                    <p class="bold">Cropped Gap Michigan</p>
+                    <p class="cinza">Moda</p>
+                    <p class="bolder">R$149,99 no Pix</p>
+                </div>
+                <div class="img">
+                    <a href="#" onclick="comprar('Tênis Nike MC Trainer 2 Feminino', 299.99)"><img src="Imagens/tenisnikefempreto.jpeg" alt="imgtenisnikepreto"></a>
+                    <p class="bold">Tênis Nike MC Trainer 2 Feminino </p>
+                    <p class="cinza">Casual</p>
+                    <p class="bolder">R$299,99 no Pix</p>
+                </div>
+                <div class="img">
+                    <a href="#" onclick="comprar('Mochila Nike Unissex', 199.49)"><img src="Imagens/mochilanikebrasilia.jpeg" alt="imgmochilanike"></a>
+                    <p class="bold">Mochila Nike Unissex</p>
+                    <p class="cinza">Academia</p>
+                    <p class="bolder">R$199,99 no Pix</p>
+                </div>
+            </div>
+    </article>
+
+    <form action="file:///C:/Users/gabri/Documents/programacao/Exerciciosfacul/Programação%20Web/SiteSport/saibamais.html" method="post"><button type="submit" class="enviar">SAIBA MAIS</button></form>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>

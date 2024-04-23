@@ -108,11 +108,11 @@ ul li{
 }
 
 
-article p {
+section p {
     font-size: 0.9rem;
 }
 
-article h1 {
+section h1 {
     font-size: 1.3rem;
 }
 
@@ -163,3 +163,60 @@ b.grey {
     text-decoration: line-through;
     color: rgba(128, 128, 128, 0.662);
 }
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 100px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footer-section {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .footer-section h3 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  #imgcontato {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+
+  #imgcontato li {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  #imgcontato li:last-child {
+    margin-right: 10px; 
+  }
+
+  #imgcontato img {
+    width: 40px; 
+    height: 40px; 
+    margin: auto;
+    display: block;
+  }

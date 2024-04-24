@@ -42,13 +42,13 @@
             var confirmarCompra = confirm("Você deseja efetuar o pagamento?");
             if (confirmarCompra) {
                 document.getElementById("resultadoCompra").innerText = "Pagamento efetuado com sucesso!";
+                document.getElementById("resultadoCompra1").innerText = "";
             } else {
-                document.getElementById("resultadoCompra1").innerText = "Pagamento não concluído. Recarregue a página para tentar novamente.";
+                document.getElementById("resultadoCompra1").innerText = "Pagamento não concluído. Por favor, tente novamente.";
+                document.getElementById("resultadoCompra").innerText = "";
             }
         });
     })
-
-
     </script>
 </body>
 </html>

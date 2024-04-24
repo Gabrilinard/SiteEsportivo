@@ -36,9 +36,9 @@ header h1.h1 {
 
 input[type="search"] {
     padding-left: 22px; /* Espaço para o ícone */
-    background-image: url('file:///C:/Users/gabri/Downloads/search_FILL0_wght400_GRAD0_opsz24.svg'); /* Substitua pelo caminho do seu ícone */
-    background-size: 20px 20px; /* Ajuste o tamanho conforme necessário */
-    background-position: 5px center; /* Ajuste a posição conforme necessário */
+    background-image: url('file:///C:/Users/gabri/Downloads/search_FILL0_wght400_GRAD0_opsz24.svg');
+    background-size: 20px 20px; 
+    background-position: 5px center; 
     background-repeat: no-repeat;
     color: rgb(156, 155, 155);
 }
@@ -214,4 +214,8 @@ footer {
     height: 40px; 
     margin: auto;
     display: block;
+  }
+
+  #wpp {
+    border-radius: 50%;
   }

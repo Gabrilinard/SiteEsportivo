@@ -1,0 +1,128 @@
+header {
+  background-color: rgb(242, 252, 241);
+  padding: 30px;
+  text-align: center; 
+}
+
+.imgespecial {
+  width: 190px;
+  height: 75px;
+  vertical-align: middle;
+  border-radius: 20px;
+}
+
+.h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 1.8rem;
+  color: rgb(0, 140, 255);
+  margin: 0; 
+}
+
+
+
+.lista {
+  background-color:rgb(66, 94, 158);
+  padding: 20px;
+}
+
+ul {
+  text-align: center;
+}
+
+ul li a{
+  text-decoration: none;
+  padding: 0px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 1.3rem;
+  transition: 0.3s;
+}
+
+a:hover {
+  cursor: pointer;
+  color: rgb(240, 236, 236); /* Cor ao passar o mouse */
+}
+
+ul li{
+  padding: 0px 40px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+.imgespecial {
+    width: 190px;
+    height: 75px;
+    vertical-align: middle;
+    border-radius: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #e0f2f1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+}   
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    width: 520px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 600px;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+
+  button a {
+    text-decoration: none;
+    color: white;
+  }
+
+section h1 {
+    text-align: center;
+    font-size: 1.7rem;
+    margin-top: 40px;
+}
+  

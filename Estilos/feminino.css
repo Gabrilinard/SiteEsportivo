@@ -140,7 +140,7 @@ section .texto h1 {
 
 .img {
     text-align: center;
-    flex: 0 0 calc(25% - 20px); /* Largura das divs .img (25% com espaçamento de 20px) */
+    flex: 0 0 calc(25% - 20px); 
 
 }
 
@@ -230,4 +230,8 @@ footer {
     height: 40px; 
     margin: auto;
     display: block;
+  }
+
+  #wpp {
+    border-radius: 50%;
   }

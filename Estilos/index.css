@@ -189,6 +189,10 @@ button.enviar {
     margin-top: 300px;
 }
 
+.a a {
+    text-decoration: none;
+}
+
 button.enviar:hover {
     background-color: aliceblue;
     cursor: pointer;

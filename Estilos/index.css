@@ -194,6 +194,10 @@ button.enviar {
     text-decoration: none;
 }
 
+.a a button{
+    text-decoration: none;
+}
+
 button.enviar:hover {
     background-color: aliceblue;
     cursor: pointer;
